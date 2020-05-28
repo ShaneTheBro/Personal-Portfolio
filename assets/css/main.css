@@ -2460,7 +2460,7 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
-		box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.1);
+		/* box-shadow: 0px 0px 0px 7px #fff, 0px 0px 0px 8px rgba(0, 0, 0, 0.1); */
 	}
 
 		.image img {
@@ -2502,7 +2502,7 @@
 		}
 
 			.image.round img {
-				border-radius: 100%;
+				/* border-radius: 100%; */
 			}
 
 		.image.main {
@@ -2896,7 +2896,7 @@
 
 		.wrapper.style1 {
 			background-color: #fafafa;
-			color: #999999;
+			color: black;
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
@@ -3079,7 +3079,7 @@
 			}
 
 			.wrapper.style1 header p {
-				color: #bfbfbf;
+				color: black;
 			}
 
 			.wrapper.style1 table tbody tr {
@@ -3319,7 +3319,7 @@
 			}
 
 			.wrapper.style2 .image {
-				box-shadow: 0px 0px 0px 7px #3498db, 0px 0px 0px 8px rgba(255, 255, 255, 0.25);
+				/* box-shadow: 0px 0px 0px 7px #3498db, 0px 0px 0px 8px rgba(255, 255, 255, 0.25); */
 			}
 
 		@media screen and (max-width: 1280px) {
