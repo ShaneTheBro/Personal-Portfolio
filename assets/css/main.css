@@ -2159,8 +2159,16 @@
 
 		@media screen and (max-width: 736px) {
 
-			.flex.flex-2 .col, .flex.flex-3 .col, .flex.flex-4 .col {
+			.flex.flex-2 .col, .flex.flex-3 .col.gallery, .flex.flex-4 .col {
 				width: 50%;
+				-moz-order: 2;
+				-webkit-order: 2;
+				-ms-order: 2;
+				order: 2;
+			}
+
+			.flex.flex-2 .col, .flex.flex-3 .col.index, .flex.flex-4 .col {
+				width: 100%;
 				-moz-order: 2;
 				-webkit-order: 2;
 				-ms-order: 2;
